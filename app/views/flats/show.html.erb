@@ -1,0 +1,9 @@
+<div class="bg-light col-sm m-3 p-3" >
+  <p> <strong> <%= @flat.name %> </strong></p>
+  <p>  <strong>Address:</strong> <%= @flat.address %></p>
+  <p> <%= @flat.description %></p>
+  <div class="d-flex gap-3">
+    <strong> <i class="fa-solid fa-euro-sign"></i> <%= @flat.price_per_night %> </strong>
+    <strong> <i class="fa-solid fa-users"></i> <%= @flat.number_of_guests %> </strong>
+  </div>
+</div>
